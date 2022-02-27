@@ -1,0 +1,27 @@
+<style>
+	
+	
+	/* body configurations */
+	body {
+		background-color: yellowgreen;
+		padding: 15px;
+	}
+	
+.content {
+        background-color: #F8F0E3;
+        padding: 10px;
+        border: 1px solid gray;
+    }
+
+	@media screen and (max-width: 850px) {
+		.column {
+			width: 50%;
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		.column {
+			width: 100%;
+		}
+	}
+</style>

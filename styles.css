@@ -1,27 +1,25 @@
-<style>
-	
-	
-	/* body configurations */
+<style>	
+/* body configurations. Padding */
 	body {
-		background-color: yellowgreen;
-		padding: 15px;
+		padding: 14px;
 	}
-	
+
+/* Configurations that will box section content */	
 .content {
         background-color: #F8F0E3;
         padding: 10px;
-        border: 1px solid gray;
+        border: 1px solid black;
     }
-
-	@media screen and (max-width: 850px) {
-		.column {
-			width: 50%;
-		}
-	}
+/*Set width options*/
 
 	@media screen and (max-width: 400px) {
 		.column {
 			width: 100%;
+		}
+	}
+	@media screen and (max-width: 800px) {
+		.column {
+			width: 50%;
 		}
 	}
 </style>
